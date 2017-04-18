@@ -1,0 +1,99 @@
+.comments{
+	padding: 14px;
+	margin-top: 65px;
+	border-radius: 8px;
+	background-image: url(../../img/main_content/containerbg.png);
+}
+.comments_area{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bolder;
+	color: #000;
+	text-shadow: 1px 1px 20px #99CCFF, 0 0 5px #99CCFF;
+	margin: 0 3px;
+
+}
+.your_login{
+	color: #222;
+	width: 120px;
+	height: 27px;
+	text-align: center;
+}
+.your_avatar{
+	width: 120px;
+	height: 120px;
+	border-radius: 8px;
+}
+.your_message{
+	width: 100%;
+	padding: 3px;
+}
+.text_area{
+	width: 800px;
+	float: right;
+}
+#comm_text{
+	margin: 1px auto;
+	font-size: 16px;
+	color: #222;
+	width: 768px;
+	height: 90px;
+	resize: none;
+	border: 1px solid #777;
+}
+.for_button{
+	text-align: right;
+}
+#button_comm{
+	margin: 0 14px 40px 0; 
+	width: 150px;
+	height: 32px;
+	color: #fff;
+	background-color: #005b9c;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 0px 1px #00FFFF, 0 0 1px #00FFFF;
+}
+#result_message{
+	display: none;
+	width: 100%;
+	position: absolute;
+	text-align: center;
+}
+.other_message{
+	margin-top: 10px;
+	width: 100%;
+	padding: 3px;
+	/*background-color: #666;*/
+	min-height: 104px;
+	clear: both;
+}
+.other_avatar{
+	width: 80px;
+	height: 80px;
+	border-radius: 8px;
+	float: left;
+	margin-right: 8px;
+}
+.other_login{	
+	color: #222;
+	width: 80px;
+	height: 17px;
+	text-align: center;
+}
+.time_add{
+	text-align: right;
+}
+
+
+
+.your_login_hidden{
+	display: none;
+}
+.your_avatar_hidden{
+	display: none;
+}
+.id_art_hidden{
+	display: none;
+}

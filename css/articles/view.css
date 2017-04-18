@@ -1,0 +1,23 @@
+.img_for_art_view{
+	margin: 12px auto;
+	display: flex;
+    justify-content: center;
+}
+.recent_art_view{
+	margin-bottom: 15px;
+}
+.pub_and_view{
+	width: 100%; 
+	margin-top: 7px;
+}
+.pub_and_view>h3,.pub_and_view>p{
+	text-align: right; 
+}
+.image_article{
+	border-radius: 4px;
+	border: 2px solid #222;
+	box-shadow: 0 0 22px 2px #99CCFF;
+	max-height: 400px;
+	max-width: 600px;
+	cursor: zoom-in;
+}

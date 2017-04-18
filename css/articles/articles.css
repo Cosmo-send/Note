@@ -1,0 +1,21 @@
+.img_for_art_cont{
+	margin-top: 6px;
+	position: absolute;
+	width: 250px;
+	height: 200px;
+	float: left;
+	border-radius: 4px;
+	border: 2px solid #222;
+	background-size: contain;
+
+}
+.description_cont{
+	margin-left: 282px;
+	width: 642px;
+	height: 200px;
+	overflow: hidden;
+}
+.recent_art_cont{
+	margin-bottom: 15px;
+	cursor: pointer;
+}

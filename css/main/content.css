@@ -1,0 +1,19 @@
+#papper{
+	padding: 14px;
+	background-image: url(../../img/main_content/containerbg.png);
+	border-radius: 8px;
+	
+}
+#papper>h6,h5,h4,h3,h2,h1,p,b,i,li{
+	color: #222;
+}
+#papper>img{
+	margin: 12px 0;
+	box-shadow: 1px 1px 6px #222;
+}
+#papper>a{
+	color: #222;
+}
+.rowscosmo{
+	float: right;
+}

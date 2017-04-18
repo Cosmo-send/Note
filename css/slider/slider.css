@@ -1,0 +1,30 @@
+.slider {
+    width: 100%;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.slick-slide {
+    margin: 0px 50px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.desc{
+    width: 960px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.desc>h3{
+   color: #fff; 
+}

@@ -1,0 +1,32 @@
+.logo{
+	padding: 25px 0;
+	color: #fff;
+	font-size: 65px;
+	text-shadow: 1px 1px 20px #99CCFF, 0 0 5px #99CCFF;
+	text-align: center;
+}
+
+#navigator{
+	width: 100%;
+	background: -webkit-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: -o-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	box-shadow: 1px 5px 12px -2px #99CCFF;
+	padding: 0.8em 0;
+	text-decoration: none;
+	text-align: center;
+}
+#navigator>a{
+	font-weight: bold;
+	margin: 0 27.2px;
+	font-size: 1em;
+}
+#navigator>a:hover{
+	text-shadow: 0 0 1.2em #99CCFF;
+}
+.slider{
+	width: 960px;
+	height: 520px;
+}

@@ -1,0 +1,482 @@
+.auth>input{
+	color: #222;
+}
+#overlay_reg>input{
+	color: #222;
+}
+#overlay_recovery>input{
+	color: #222;
+}
+#hover{
+	display: none;
+	position: fixed;
+	background-color: rgba(0,0,0, 0.7);
+	width: 100%;
+	height: 100%;
+	z-index: 12;
+	left: 0;
+	top: 0;
+}
+#overlay_auth{
+	display: none;
+	position: fixed;
+	width: 310px;
+	height: 158px;
+	z-index: 13;
+	background: radial-gradient(#292828, #000);
+	top: 50%;
+	left: 50%;
+	margin-left:-155px; 
+	margin-top:-79px;
+	border-radius: 8px;
+}
+
+#overlay_reg{
+	display: none;
+	position: fixed;
+	width: 310px;
+	height: 220px;
+	z-index: 14;
+	background: radial-gradient(#292828, #000);
+	top: 50%;
+	left: 50%;
+	margin-left:-155px; 
+	margin-top:-110px;
+    border-radius: 8px;
+}
+
+#overlay_recovery{
+	display: none;
+	position: fixed;
+	width: 310px;
+	height: 158px;
+	z-index: 14;
+	background: radial-gradient(#292828, #000);
+	top: 50%;
+	left: 50%;
+	margin-left:-155px; 
+	margin-top:-79px;
+    border-radius: 8px;
+}
+#overlay_setting{
+	display: none;
+	position: fixed;
+	width: 900px;
+	height: 410px;
+	z-index: 14;
+	background: radial-gradient(#292828, #000);
+	top: 50%;
+	left: 50%;
+	margin-left:-450px; 
+	margin-top:-205px;
+    border-radius: 8px;
+}
+.choose_avatar{
+	margin-top: 10px;
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 20px #00FFFF, 0 0 5px #00FFFF
+}
+.choose_you_ava{
+	float: left;
+	height: 40px;
+	width: 420px;
+	text-align: center;
+}
+.choose_ava{
+	height: 40px;
+	width: 480px;
+	text-align: center;
+	float: right;
+}
+.main_avatar{
+	float: left;
+	height: 300px;
+	width: 420px;
+}
+.main_sibling{
+	margin-top: 25px;
+	height: 250px;
+	width: 250px;
+	border-radius: 8px;
+	margin-left: 85px;
+	box-shadow: 0 0 22px 2px #99CCFF;
+}
+.sibling{
+	float: right;
+	height: 290px;
+	width: 470px;
+	padding: 5px;
+}
+.mini_siblings{
+	display: inline-flex;
+	width: 140px;
+	height: 140px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+.mini_siblings:hover{
+	box-shadow: 0 0 22px 2px #99CCFF;
+	cursor: pointer;
+}
+#save_choose{
+	float: right;
+	background: #005b9c;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 200px;
+	border-radius: 5px;
+	border: none;
+	margin: 10px;
+}
+
+
+#recovery_email{
+	margin-top: 40px;
+	margin-left: 22px;
+}
+
+#recovery_password{
+	display: none;
+	margin-top: 40px;
+	margin-left: 22px;
+}
+#new_password{
+	display: none;
+	margin-top: 40px;
+	margin-left: 22px;
+}
+#repeat_recovery{
+	display: none;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 20px #FFF, 0 0 5px #FFF;
+	cursor: pointer;
+}
+#button_authorization{
+	position: fixed;
+	margin: 5px;
+	width: 200px;
+	height: 50px;
+	background: -webkit-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: -o-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	border: 2px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bolder;
+	opacity: .5;
+	z-index: 10;
+	animation: shadowlogo 8s linear infinite;
+	font-size: 13px;
+
+}
+#button_authorization:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+#logout{
+	position: fixed;
+	margin: 5px;
+	width: 90px;
+	height: 50px;
+	background: -webkit-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: -o-linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	background: linear-gradient(#2b2b2b 0%, #1e1e1e 48%, #000 52%, #000 100%);
+	border: 2px solid #fff;
+	border-radius: 8px;
+	color: #fff;
+	font-weight: bolder;
+	opacity: .5;
+	z-index: 10;
+	animation: shadowlogo 8s linear infinite;
+}
+#logout:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+#button_authorization:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+#button_feedback{
+	position: absolute;
+	background: linear-gradient(to top, #313132, #000);
+	border-radius: 3px;
+	width: 174px;
+	height: 52px;
+	color: white;
+	font-size: 18px;
+	right: 0;
+}
+#button_feedback:hover{
+	cursor: pointer;
+}
+
+.messages{	
+    margin-left: 18px;
+}
+.auth input, button{
+	margin: 10px;
+	font-size: 15px;
+	width: 200px;
+	height: 25px;
+	border: 2px solid #777;
+	border-radius: 5px;
+}
+.auth input:focus{
+	box-shadow: inset 0 0 2px #74baf8;
+}
+.name_and_setting{
+	position: absolute;
+	margin-top: 100px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 20px #00FFFF, 0 0 5px #00FFFF;
+	width: 100%;
+	height: 25px;
+}
+
+#setting{
+	text-shadow: 1px 1px 20px #99CCFF, 0 0 5px #99CCFF;
+	font-size: 25px;
+	float: right;
+	}
+#setting:hover{
+	cursor: pointer;
+}
+.close_form{
+	color: #fff;
+	position: absolute;
+    margin-left: 310px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: bolder;
+    animation: puls 2s linear infinite;
+}
+#close_auth_form{
+	color: #fff;
+	position: absolute;
+    margin-left: 310px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: bolder;
+    animation: puls 2s linear infinite;
+}
+#close_sitting_form{
+	color: #fff;
+	position: absolute;
+    margin-left: 910px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: bolder;
+    animation: puls 2s linear infinite;
+    cursor: pointer;
+}
+@keyframes puls{
+	0%{text-shadow: 1px 1px 2px black, 0 0 4em #0077bc;}
+	50%{text-shadow: 1px 1px 2px black, 0 0 1em #fff;}
+	100%{text-shadow: 1px 1px 2px black, 0 0 4em #0077bc}
+}
+.close_form:hover{
+	cursor: pointer;
+	color: #0077bc;
+}
+#close_auth_form:hover{
+	cursor: pointer;
+	color: #0077bc;
+}
+
+
+.over_reg{
+	margin: 10px;
+	margin-left: 22px;
+	font-size: 15px;
+	width: 250px;
+	height: 25px;
+	border: 2px solid #777;
+	border-radius: 5px;
+}
+
+
+#error{ 
+	position: absolute;
+	margin-top: 45px;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+	height: 80px;
+}
+#error1{ 
+	position: absolute;
+	margin-top: 10px;
+	left: 50%;
+	width: 500px;
+	margin-left: -250px;
+	height: 80px;
+}
+.error{
+	font-size: 20px;
+	color: red;	
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+.greenlite{
+	font-size: 20px;
+	color: #28ad0d;
+	font-weight: bolder;
+	text-align: center;
+}
+
+
+.over_recovery{
+	margin: 10px;
+	margin-left: 29px;
+	font-size: 15px;
+	width: 250px;
+	height: 25px;
+	border: 2px solid #777;
+	border-radius: 5px;
+}
+
+
+#key{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	margin-left: 222px;
+	margin-top: 11px;
+}
+#key:hover{
+    cursor: pointer;
+}
+
+
+#recovery_pass{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 216px;
+}
+#recovery_pass p{
+    font-weight: bolder;
+    text-align: center;
+    color: #00a5ff;
+    text-shadow: 0px 0px 7px#000; 
+}
+#recovery_pass:hover{
+    cursor: pointer;
+    text-shadow: 0px 0px 17px#000;
+}
+#recovery_for_email{
+	margin-left: 66px;
+	background: #005b9c;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 180px;
+	border: none;
+	border-radius: 5px;	
+}
+#recovery_for_email:hover{
+	box-shadow: 0 0 7px #005b9c;
+    cursor: pointer;
+}
+#recovery_for_password{
+	display: none;
+	margin-left: 66px;
+	background: #005b9c;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 180px;
+	border: none;
+	border-radius: 5px;	
+}
+#recovery_for_password:hover{
+	box-shadow: 0 0 7px #005b9c;
+    cursor: pointer;
+}#new_for_password{
+	display: none;
+	margin-left: 66px;
+	background: #005b9c;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 180px;
+	border: none;
+	border-radius: 5px;	
+}
+#new_for_password:hover{
+	box-shadow: 0 0 7px #005b9c;
+    cursor: pointer;
+}
+
+
+#form_recovery_pass{
+	margin-top: 7px;
+}
+#form_reg{
+	margin-top: 7px;
+}
+
+
+#enter{
+	background: #28ad0d;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 80px;
+	border: none;
+}
+#enter:hover{
+	box-shadow: 0 0 7px #28ad0d;
+    cursor: pointer;
+}
+
+#register{
+	margin: -42px 10px 10px 10px;
+	background: #005b9c;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	float: right;
+}
+#register:hover{
+	box-shadow: 0 0 7px #005b9c;
+    cursor: pointer;
+}
+#registration{
+	background: #28ad0d;
+	font-weight: bolder;
+	font-size: 17px;
+	height: 32px;
+	color: #fff;
+	width: 200px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	margin-left: 52px;
+}
+#registration:hover{
+	box-shadow: 0 0 7px #28ad0d;
+    cursor: pointer;
+}

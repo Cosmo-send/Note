@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{
+	font-family: 'PT Serif', serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+body{
+	background-color: #010E22;
+  	height: 100%;
+  	background-image: url(../../img/main/cosmosbg.png);
+}
+input, textarea{
+	margin: 5px;
+	padding: 1px 7px;
+}
+.wrapper{
+  	display: flex;
+  	flex-direction: column;
+  	height: 100%;
+}
+.header{
+	flex: 3 0 auto;
+	background-image: url(../../img/main/bg.png);
+	background-repeat: no-repeat;
+	box-shadow: 0px -38px 61px -19px #000000 inset;
+}
+.content{
+	margin: 30px 0 78px 0;
+  	flex: 2 0 auto;
+}
+.comments{
+	flex: 1 0 auto;
+	padding: 0 15px;
+	background-color: aqua;
+}
+.footer{
+ 	flex: 0 0 auto;
+  	height: 495px;
+  	background-color: #444;
+  	background: radial-gradient(#292828, #000);	
+}
+.position{
+	position: relative;
+	width: 960px;
+	left: calc(50% - 480px);
+	height: 100%;
+}
